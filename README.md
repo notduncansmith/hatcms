@@ -59,8 +59,9 @@ These are in no particular order.  * denotes high-priority tasks.
 
 
 # User Stories
+
 As an end user (site administrator, business owner, other non-technical person), I need to update small portions of my site with relevant information, so that I can keep my website current with zero developer skills. It needs to be easy, and cannot allow me to break my website. I should also be able to blog, with the ability to use tags. Pretty URLs should be available, as well as the ability to browse archives by tag and date. 
----
+
 As a developer, I need to give my clients a way to update their websites without breaking them. It needs to get out of my way as a developer, meaning no stupid inserted markup. Templating should be easy and use (at most) Mustache-level logic. "Widgets" and plugins are not necessary, though templates should include the capacity for repeatable elements (such as entries in a photo gallery or company bios).
 
 # Pull Requests
