@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style>
+			nav,.main {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .post {
+        padding: 5px;
+        margin:10px;
+        border:1px solid #222;
+      }
+		</style>
+	</head>
+	<body>
+		<nav>
+			<a href="/admin/posts/all">Posts</a>
+			<a href="/admin/post/new">New Post</a>
+			<a href="#">Admin menu</a>
+		</nav>
+		<section class="main">
+			<%= yield %>
+		</section>
+	</body>
+</html>

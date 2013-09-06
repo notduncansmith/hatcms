@@ -1,0 +1,12 @@
+<% @posts.each do |post| %>
+<section class="post">
+	<a href="<%= post['url'] %>"><%= post["title"] %></a>
+	<% if post["tags"] %>
+		<p><strong>Tags:</strong>
+		<% post["tags"].each do |tag| %>
+			<em><%= tag %></em>
+		<% end %></p>
+	<% end %>
+	<p><%= post["raw"][0,50] %>...</p>
+</section>
+<% end %>

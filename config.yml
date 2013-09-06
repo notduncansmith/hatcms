@@ -1,0 +1,3 @@
+db_name: "sindb"
+db_host: "localhost" #development
+db_port: "27017"
