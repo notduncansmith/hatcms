@@ -10,6 +10,21 @@ HatCMS is friendly to new developers. There's a lot of in-line documentation,
 
 I think the MVC pattern is great, so we're using it. EOD.
 
+# Installation
+---
+## Dependencies
+- Ruby 2.0.X
+- MongoDB
+- Bundler
+
+## Instructions
+Install MongoDB if you haven't already, then clone this repo down and run `bundle install`.
+
+# Usage
+---
+`cd path/to/project/directory`
+`ruby hat.rb`
+Visit localhost:4567
 
 
 
