@@ -66,8 +66,11 @@ As a developer, I need to give my clients a way to update their websites without
 
 # Pull Requests
 
-I'm happily accepting pull requests, I just ask that
+I'm happily accepting pull requests, I just ask that:
+
 A) New features satisfy a current TODO or support user stories (if feature is not a TODO, make an issue first)
+
 B) You use in-line documentation via comments to explain what's going on. I want this project to be very friendly to new developers, the inner workings of HatCMS should not be a "black box" that developers are afraid to tinker with.
+
 C) You use 2-space indentation, using spaces (Sublime's default is 4-space tabbed indentation).
 
