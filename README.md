@@ -1,5 +1,5 @@
 # HatCMS
----
+
 The goal: a CMS that sucks less than Wordpress. Themes should be easy to develop. The engine itself should not be a black box. 
 
 It's called HatCMS because of the Sinatra hat.
