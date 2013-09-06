@@ -1,15 +1,15 @@
 # Admin Routes
 get '/admin' do
-  
+  erb :admin, :layout => :"layouts/admin_layout"
 end
 
 get '/admin/post/new' do
-  erb :newPost, :layout => :admin_layout
+  erb :newPost, :layout => :"layouts/admin_layout"
 end
 
 get '/admin/posts/all' do
   @posts = settings.postRepo.find({"url" => {"$gt" => ""}})
-  erb :allPosts, :layout => :admin_layout
+  erb :allPosts, :layout => :"layouts/admin_layout"
 end
 
 post '/admin/post/new' do
