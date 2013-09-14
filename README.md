@@ -13,27 +13,23 @@ I think the MVC pattern is great, so we're using it. EOD. I'm also a fan of the 
 
 # Installation
 
-## Dependencies
-- Ruby 2.0.X
-- MongoDB
-- Bundler
-
-## Instructions
 Install MongoDB if you haven't already, then clone this repo down and run `bundle install`.
 
 # Usage
+
+`sudo mongod` (if not already running)
 
 `cd path/to/project/directory`
 
 `ruby hat.rb`
 
-Visit localhost:4567
+Visit `http://localhost:4567`
 
 
 
 #TODOs
 
-These are in no particular order.  * denotes high-priority tasks.
+These are in no particular order.  * denotes higher-priority tasks.
 
 
 - * Users + sessions (name, email, password, additional custom fields defined by theme)
