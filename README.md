@@ -14,6 +14,7 @@ I think the MVC pattern is great, so we're using it. EOD. I'm also a fan of the 
 # Installation
 
 Install MongoDB if you haven't already, then clone this repo down and run `bundle install`.
+Note: I couldn't get Thin successfully installed on my Windows machine, and I haven't tested this on OSX yet.  Definitely works on Ubuntu 12.04 though.
 
 # Usage
 
